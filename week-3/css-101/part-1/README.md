@@ -1,4 +1,4 @@
-# **Week 3 / CSS3 101**
+# **Week 3 / CSS3 101 / Part 1**
 
 In this workshop, you will learn how to enhance the presentation of your HTML webpage using CSS. By the end of this workshop, you will understand the fundamentals of CSS and how to apply it to your web projects.
 
