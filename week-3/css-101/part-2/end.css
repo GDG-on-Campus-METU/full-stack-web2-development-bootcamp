@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f0f0;
+}
+
+.mainContainer {
+  margin-top: 10px;
+  min-height: 100vh; /* REQUIRED FOR justify-items FUNCTIONALITY! */
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.contactForm {
+  width: 400px; 
+  height: 500px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-color: white;
+  border-radius: 16px;
+  border: 3px solid #8517c2;
+  margin: auto;
+  border-top: 10px solid #8517c2;
+  box-shadow: 2px 2px 30px 3px rgba(0, 0, 0, 0.2);
+}
+
+.contactForm > .formHeader {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.contactForm > .formExplanation {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  color: #929292;
+}
+
+.contactForm > .nameSurnameContainer {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  gap: 10px;
+}
+
+.textInputs {
+  width: 50%;
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+.textInputs:hover {
+  border-color: #8517c2 !important;
+}
+
+label {
+  font-size: 14px;
+  color: gray;
+}
+
+#subjectSelectField:hover {
+  cursor: pointer;
+  border-color: #8517c2 !important;
+}
+
+
+#subjectSelectField {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: gray;
+}
+
+#fullNameInputField:active {
+ 
+  border: 1px solid #8517c2;
+}
+
+#message {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 5rem;
+}
+
+
+.termsconditions-link:visited {
+  color: #8517c2;
+}
+
+.termsconditions-link:hover {
+  color: #ca69ff;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #8517c2;
+  color: #fff;
+  border: 2px solid #cb6aff;
+  border-radius: 8px;
+}
+
+.submitButton:hover {
+  cursor: pointer; /* Make the mouse a "pointer" when the user hovers over the button */
+  background-color: #660a98;
+  border-color: #8517c2;
+}
