@@ -28,7 +28,12 @@ body {
   border-radius: 16px;
   border: 3px solid #8517c2;
   margin: auto;
+  animation: fadeIn 2s;
   border-top: 10px solid #8517c2;
+  box-shadow: -20px -20px 30px 3px rgba(0, 0, 0, 0.2);
+}
+
+.contactForm:hover {
   box-shadow: 2px 2px 30px 3px rgba(0, 0, 0, 0.2);
 }
 
@@ -38,23 +43,28 @@ body {
 }
 
 .contactForm > .formExplanation {
+  text-align: justify;
   font-size: 0.8rem;
   margin-bottom: 1rem;
   color: #929292;
+  font-weight: 100;
 }
 
 .contactForm > .nameSurnameContainer {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   justify-items: center;
   gap: 10px;
 }
 
 .textInputs {
-  width: 50%;
+  width: 20%;
   border: 1px solid rgb(196, 196, 196);
   border-radius: 4px;
   padding: 0.5rem;
+  height: 100px;
+  display: block;
 }
 
 .textInputs:hover {
@@ -116,4 +126,13 @@ label {
   cursor: pointer; /* Make the mouse a "pointer" when the user hovers over the button */
   background-color: #660a98;
   border-color: #8517c2;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

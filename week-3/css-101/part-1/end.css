@@ -15,15 +15,16 @@ body {
 .contactForm {
   width: 30%;
   margin-left: 35%;
-  margin-top: 5rem;
+  margin-top: 50px;
   padding: 2rem;
   background-color: #fff;
   border-radius: 16px;
-  border: 1px solid #ccc;
+  border: 15px double #007bff;
 }
 /* END: 1. Styling `<form>` tag */
 
 /* START: 2. Styling `<h1>`tag */
+
 .formHeader {
   font-size: 2.5rem;
   margin-bottom: 1rem;
@@ -32,8 +33,8 @@ body {
 
 /* START: 3. Styling all the `<label>`tags */
 label {
-  font-size: 14px;
-  color: gray;
+  font-size: px;
+  color: blueviolet;
 }
 /* END: 3. Styling all the `<label>`tags */
 
@@ -75,5 +76,7 @@ label {
   width: 100%;
   border-radius: 12px;
   margin-bottom: 20px;
+  border:1px solid gray;
 }
 /* END: 7. Adding and styling a form image */
+
